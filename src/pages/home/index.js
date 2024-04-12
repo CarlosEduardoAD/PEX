@@ -7,6 +7,7 @@ import Contact from "../../components/Contact";
 import Footer from "../../components/Footer";
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
+// Página principal do site
 function MainPage() {
 
 	return (
@@ -17,6 +18,7 @@ function MainPage() {
 			<Staff />
 			<Contact />
 			<Footer />
+
 
 			{/* todo: ver se é interessante incluir, se sim verificar alinhamento do botao send*/}
 			<FloatingWhatsApp
